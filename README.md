@@ -1,6 +1,5 @@
 # input_form_show_password
-
-A new Flutter project.
+It is a Flutter app with 2 TextFormFields each with an eye button to activate/deactivate obscureText property.
 
 ## Getting Started
 
