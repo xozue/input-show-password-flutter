@@ -50,7 +50,10 @@ class _PasswordInputFormFieldState extends State<PasswordInputFormField> {
       decoration: InputDecoration(
         labelText: 'Password',
         suffixIcon: IconButton(
-          icon: Icon(Icons.remove_red_eye),
+          icon: Icon(
+            Icons.remove_red_eye,
+            color: showPass ? Theme.of(context).primaryColor : Colors.black54,
+          ),
           onPressed: () {
             setState(() {
               showPass = !showPass;
